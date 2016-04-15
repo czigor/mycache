@@ -1,0 +1,7 @@
+mycache.content:
+  path: '/mycache'
+  defaults:
+    _controller: '\Drupal\mycache\Controller\MyCacheController::content'
+    _title: 'My Cache'
+  requirements:
+    _permission: 'access content'

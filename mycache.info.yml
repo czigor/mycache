@@ -1,0 +1,6 @@
+name: My Cache
+description: Testing D8 Cache API
+package: Custom
+
+type: module
+core: 8.x
