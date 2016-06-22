@@ -7,7 +7,7 @@ Tasks
   
 * `drush en mycache`
 
-*  Create 2 additional authenticated users
+*  Create 2 additional authenticated users and a node.
   
 * Prepare a database viewer tool (phpmyadmin, mysql workbench) 
   
