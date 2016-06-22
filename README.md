@@ -4,13 +4,9 @@ Tasks
 ### Preparations
 
 * `git clone https://github.com/czigor/mycache.git`
-  
 * `drush en mycache`
-
 *  Create 2 additional authenticated users
-  
 * Prepare a database viewer tool (phpmyadmin, mysql workbench) 
-  
 * Go to /mycache
 
 ### Without page cache, dynamic_page_cache and big_pipe
