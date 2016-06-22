@@ -4,13 +4,9 @@ Tasks
 ### Preparations
 
 * `git clone https://github.com/czigor/mycache.git`
-  
 * `drush en mycache`
-
 *  Create 2 additional authenticated users and a node.
-  
 * Prepare a database viewer tool (phpmyadmin, mysql workbench) 
-  
 * Go to /mycache
 
 ### Without page cache, dynamic_page_cache and big_pipe
@@ -22,7 +18,7 @@ After changing code/enabling a module use `drush cr` to empty cache tables.
   1. No #cache property
     1. What is in the cache_render table? (keys, tags, data)
     2. What is in the cache_dynamic_page_cache table?
-  2. Same a) and b) with only ['#cache']['keys'].
+  2. Same a) and b) adding only ['#cache']['keys'].
   3. Same a) and b) adding ['#cache']['contexts'].
   
 ### drush en page_cache
