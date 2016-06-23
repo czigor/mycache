@@ -18,7 +18,7 @@ class MyCacheController extends ControllerBase {
     $node = node_load(1);
     $build = [
       /*'#lazy_builder' => [
-        'Drupal\mycache\Controller\MyCacheController:mycache_helo', [$current_user->getAccountName()],
+        static::class . '::lazy_builder', [$current_user->getAccountName()],
       ],
       '#create_placeholder' => TRUE,*/
       '#type' => 'markup',
@@ -49,7 +49,7 @@ class MyCacheController extends ControllerBase {
   /**
    * #lazy_builder callback.
    */
-  public function mycache_helo($name) {
+  public function lazy_builder($name) {
     $node = node_load(1);
     return [
       '#markup' => t('Hi @name! This is the title: @title', ['@name' => $name, '@title' => $node->getTitle()]),
