@@ -3,6 +3,8 @@ Tasks
 
 ### Preparations
 
+* Get latest drupal 8.
+* `cd modules/contrib`
 * `git clone https://github.com/czigor/mycache.git`
 * `drush en mycache`
 *  Create 2 additional authenticated users and a node.
