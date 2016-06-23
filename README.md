@@ -1,6 +1,3 @@
-Tasks
-=========
-
 ### Preparations
 
 * Get latest drupal 8.
