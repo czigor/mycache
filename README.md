@@ -10,7 +10,7 @@
 
 ### Without page cache, dynamic_page_cache and big_pipe
 
-`drush dis page_cache dynamic_page_cache big_pipe -y`
+`drush pm-uninstall page_cache dynamic_page_cache big_pipe -y`
 
 Answer the following questions for anonymous user and the two authenticated ones.
 After changing code/enabling a module use `drush cr` to empty cache tables.
