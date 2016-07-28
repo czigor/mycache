@@ -1,4 +1,4 @@
-### Preparations
+### Preparations (preferably done before the workshop)
 
 * Get latest drupal 8.
 * `cd modules/contrib`
